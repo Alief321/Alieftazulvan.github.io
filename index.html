@@ -8,10 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <!-- Bootstrap Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
     <!-- My Css -->
     <link rel="stylesheet" href="style.css" />
+
+    <!---AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Latihan</title>
   </head>
@@ -47,8 +50,14 @@
     <section class="jumbotron text-center">
       <img src="img/Megumin.png" alt="Megumin" width="200px" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Megumin</h1>
-      <p class="lead">Waga na wa Megumin! Ākuwizādo wo nariwai toshi, saikyou no kougeki no mahou "bakuretsu mahou" wo ayatsuru mono!</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,192L48,186.7C96,181,192,171,288,181.3C384,192,480,224,576,234.7C672,245,768,235,864,218.7C960,203,1056,181,1152,192C1248,203,1344,245,1392,266.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <p class="lead"></p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="white"
+          fill-opacity="1"
+          d="M0,192L48,186.7C96,181,192,171,288,181.3C384,192,480,224,576,234.7C672,245,768,235,864,218.7C960,203,1056,181,1152,192C1248,203,1344,245,1392,266.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- Akhir Jumbotron -->
 
@@ -56,15 +65,21 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
             <h2>About me</h2>
           </div>
           <div class="row justify-content-center fs-5 text-center">
-            <div class="col-md-4 ">
-              <p>An arch wizard who is descended from crimson demons; powerful humanoids who possess black hair and red eyes, and sport chuunibyou characteristics. Megumin only knows a single skill, the incredibly powerful explosion magic that immediately incapacitates her for the rest of the day when cast, and refuses to learn any other skills.</p>
+            <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+              <p>
+                An arch wizard who is descended from crimson demons; powerful humanoids who possess black hair and red eyes, and sport chuunibyou characteristics. Megumin only knows a single skill, the incredibly powerful explosion magic
+                that immediately incapacitates her for the rest of the day when cast, and refuses to learn any other skills.
+              </p>
             </div>
-            <div class="col-md-4">
-              <p>Megumin is a young girl with shoulder-length dark brown hair (smooth black in light novel) and oddly languid crimson-colored eyes. She has fair skin, a light complexion and doll-like features. Unlike her classmates on Crimson Village, who has a more developed body, Megumin seems to have a delicate under-developed figure.</p>
+            <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+              <p>
+                Megumin is a young girl with shoulder-length dark brown hair (smooth black in light novel) and oddly languid crimson-colored eyes. She has fair skin, a light complexion and doll-like features. Unlike her classmates on
+                Crimson Village, who has a more developed body, Megumin seems to have a delicate under-developed figure.
+              </p>
             </div>
           </div>
         </div>
@@ -79,17 +94,78 @@
     </section>
     <!-- Akhir About me -->
 
+    <!--Skills-->
+    <section id="skills">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Skills</h2>
+          </div>
+        </div>
+        <div class="row mb-3 justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/6.jpg" alt="Expulosion" class="img-fluid skills-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/7.jpg" alt="Expulosion" class="img-fluid skills-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/8.jpg" alt="Expulosion" class="img-fluid skills-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/9.jpg" alt="Expulosion" class="img-fluid skills-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/explu5.jpg" alt="Expulosion" class="img-fluid skills-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/explu5.jpg" alt="Expulosion" class="img-fluid skills-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/explu5.jpg" alt="Expulosion" class="img-fluid skills-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/explu5.jpg" alt="Expulosion" class="img-fluid skills-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#FFF"
+          fill-opacity="1"
+          d="M0,128L48,144C96,160,192,192,288,202.7C384,213,480,203,576,192C672,181,768,171,864,186.7C960,203,1056,245,1152,234.7C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Akhir Skills-->
+
     <!-- Gallery -->
     <section id="gallery">
       <div class="contaier">
-        <div class="row text-center mb-3"> 
+        <div class="row text-center mb-3">
           <div class="col">
             <h2>My Gallery</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card"">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500">
               <img src="img/1.jpg" class="card-img-top" alt="Megumin1" />
               <div class="card-body">
                 <p class="card-text text-center">Megumin mesem</p>
@@ -97,7 +173,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card"">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
               <img src="img/2.jpg" class="card-img-top" alt="Megumin2" />
               <div class="card-body">
                 <p class="card-text text-center">Megumin ngguyu</p>
@@ -105,7 +181,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card"">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
               <img src="img/3.jpg" class="card-img-top" alt="Megumin3" />
               <div class="card-body">
                 <p class="card-text text-center">Expulosiooooooon!</p>
@@ -113,7 +189,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card"">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
               <img src="img/4.jpg" class="card-img-top" alt="Megumin4" />
               <div class="card-body">
                 <p class="card-text text-center">Megumin tembe tangi turu</p>
@@ -121,7 +197,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card"">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
               <img src="img/5.jpg" class="card-img-top" alt="Megumin5" />
               <div class="card-body">
                 <p class="card-text text-center">Megumin akeh</p>
@@ -130,40 +206,53 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,224L48,229.3C96,235,192,245,288,240C384,235,480,213,576,218.7C672,224,768,256,864,256C960,256,1056,224,1152,186.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="rgb(230, 210, 210)"
+          ;
+          fill-opacity="1"
+          d="M0,224L48,229.3C96,235,192,245,288,240C384,235,480,213,576,218.7C672,224,768,256,864,256C960,256,1056,224,1152,186.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- Akhir Gallery -->
 
     <!-- Contact -->
-<section id="contact">
-  <div class="container">
-    <div class="row text-center mb-3">
-      <div class="col">
-        <h2>Contact me</h2>
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="Nama" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="Nama" aria-describedby="Nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger">Kirim</button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form>
-          <div class="mb-3">
-            <label for="Nama" class="form-label">Nama Lengkap</label>
-            <input type="text" class="form-control" id="Nama" aria-describedby="Nama">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" aria-describedby="email">
-          </div>
-          <div class="mb-3">
-            <label for="pesan" class="form-label">Pesan</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-danger">Kirim</button>
-        </form>
-      </div>
-    </div>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#dc3545" fill-opacity="1" d="M0,96L48,90.7C96,85,192,75,288,101.3C384,128,480,192,576,181.3C672,171,768,85,864,80C960,75,1056,149,1152,165.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-</section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#dc3545"
+          fill-opacity="1"
+          d="M0,96L48,90.7C96,85,192,75,288,101.3C384,128,480,192,576,181.3C672,171,768,85,864,80C960,75,1056,149,1152,165.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
     <!-- Akhir Contact -->
 
     <!-- Footer -->
@@ -174,6 +263,30 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!---AOS script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const skillsimage = document.querySelectorAll('.skills-img');
+
+      skillsimage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+      AOS.init({
+        once: true,
+        duration: 400,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 5, delay: 1.5, text: 'Waga na wa Megumin! Ākuwizādo wo nariwai toshi, saikyou no kougeki no mahou "bakuretsu mahou" wo ayatsuru mono!' });
+      gsap.from('.jumbotron img', { duration: 1.5, rotateY: 360, opacity: 0, ease: 'bounce.out' });
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+      gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
+    </script>
   </body>
 </html>
-

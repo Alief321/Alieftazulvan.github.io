@@ -8,9 +8,27 @@ body {
 }
 
 #gallery {
+  background-color: rgb(255, 255, 255);
+}
+
+#skills {
+  width: 100%;
+  background-color: rgb(230, 210, 210);
+}
+
+#contact {
   background-color: rgb(230, 210, 210);
 }
 
 section {
   padding-top: 5rem;
+}
+
+.skills-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#skills .row > * {
+  padding: 0.5;
 }
