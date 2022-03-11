@@ -212,6 +212,39 @@
           </div>
         </div>
       </div>
+
+      <section id="my-3d">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Model</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="model-box">
+                <h3 class="model-name">Megumin gedhe</h3>
+                <img src="img/megu1.png" alt="megu1" class="model-img" />
+                <a href="" class="btn btn-light model-detail-button">Show details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="model-box">
+                <h3 class="model-name">Megumin mini</h3>
+                <img src="img/megu2.png" alt="megu2" class="model-img" />
+                <a href="" class="btn btn-light model-detail-button">Show details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="model-box">
+                <h3 class="model-name">Megumin normal</h3>
+                <img src="img/megu3.png" alt="megu3" class="model-img" />
+                <a href="" class="btn btn-light model-detail-button">Show details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="rgb(230, 210, 210)"
@@ -295,6 +328,16 @@
       gsap.from('.jumbotron img', { duration: 1.5, rotateY: 360, opacity: 0, ease: 'bounce.out' });
       gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
       gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
+    </script>
+
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll('.model-box'), {
+        max: 30,
+        speed: 1000,
+        scale: 1.05,
+        glare: true,
+      });
     </script>
   </body>
 </html>

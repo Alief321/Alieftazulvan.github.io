@@ -32,3 +32,95 @@ section {
 #skills .row > * {
   padding: 0.5;
 }
+
+/*model section*/
+
+.model-box {
+  position: relative;
+  background-color: #dc3545;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.model-box::before {
+  content: 'MY';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.model-box:hover::before {
+  opacity: 0.2;
+}
+
+.model-box::after {
+  content: 'MODEL';
+  position: absolute;
+  color: #fff;
+  font-size: 4.3em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.model-box:hover::after {
+  opacity: 0.2;
+}
+
+.model-name {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.model-box:hover .model-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.model-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.model-box:hover .model-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.model-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 80px);
+  max-width: 250px;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.model-box:hover .model-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.1);
+}
